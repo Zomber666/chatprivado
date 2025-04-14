@@ -1,0 +1,29 @@
+# Archivos de Python
+__pycache__/
+*.pyc
+
+# Base de datos local
+*.sqlite3
+
+# Archivos de entorno virtual
+venv/
+env/
+
+# Archivos de configuración local
+*.env
+.env
+
+# Archivos de compilación
+*.log
+*.pot
+*.mo
+
+# Archivos del sistema
+.DS_Store
+
+# Configuración de IDEs
+.vscode/
+.idea/
+
+# Archivos subidos por usuarios (opcionales)
+media/
