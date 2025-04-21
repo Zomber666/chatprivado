@@ -1,12 +1,12 @@
 from django.contrib import admin
-from .models import SalaPrivada, Mensaje
+from .models import Room, Message
 
 
 
 # Register your models here.
 
-admin.site.register(SalaPrivada)
-admin.site.register(Mensaje)
+admin.site.register(Room)
+admin.site.register(Message)
 
 
 
@@ -15,7 +15,7 @@ admin.site.register(Mensaje)
 
 
 # Inicia sesión con tu superusuario, y deberías ver:
-#Sala Privada
-#Mensaje
-#Desde ahí puedes crear salas
-#ver los mensajes y hasta subir archivos manualmente para hacer pruebas.
+# Sala Privada
+# Mensaje
+# Desde ahí puedes crear salas
+# ver los mensajes y hasta subir archivos manualmente para hacer pruebas.
